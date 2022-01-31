@@ -16,7 +16,7 @@ int lengthOfLongestSubstring(string s) {
     int j = 0, result = 0;
     set.insert(s[0]);
     for (int i = 0; i < s.size(); i++) {
-        if (i >= 0) {
+        if (i > 0) {
             set.erase(s[i-1]);
         }
         while (j < s.size() - 1 && !set.count(s[j + 1])) {
