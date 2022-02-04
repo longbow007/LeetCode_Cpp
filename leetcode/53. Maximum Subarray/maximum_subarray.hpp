@@ -9,5 +9,12 @@
 #define maximum_subarray_hpp
 
 #include <stdio.h>
+#include <vector>
+
+using namespace std;
+
+int maximumSubArray(vector<int>& nums);
+
+int maximumSubArray2(vector<int>& nums);
 
 #endif /* maximum_subarray_hpp */
