@@ -10,4 +10,6 @@
 
 #include <stdio.h>
 
+int fib(int n);
+
 #endif /* fibonacci_hpp */
