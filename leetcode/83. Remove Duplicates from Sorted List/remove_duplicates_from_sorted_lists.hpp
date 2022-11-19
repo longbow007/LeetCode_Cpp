@@ -18,7 +18,6 @@ struct ListNode {
     ListNode(int x, ListNode *next) : val(x), next(next) {}
 };
 
-ListNode *createLinkedList(int a[], int n);
 ListNode* deleteDuplicates(ListNode* head);
 
 #endif /* remove_duplicates_from_sorted_lists_hpp */
