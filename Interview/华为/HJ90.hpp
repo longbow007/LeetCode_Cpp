@@ -10,6 +10,7 @@
 
 #include <stdio.h>
 
+// 合法IP https://www.nowcoder.com/practice/995b8a548827494699dc38c3e2a54ee9
 void test_validIP();
 
 #endif /* HJ90_hpp */
