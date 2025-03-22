@@ -9,14 +9,7 @@
 #define remove_duplicates_from_sorted_lists_hpp
 
 #include <stdio.h>
-
-struct ListNode {
-    int val;
-    ListNode *next;
-    ListNode() : val(0), next(nullptr) {}
-    ListNode(int x) : val(x), next(nullptr) {}
-    ListNode(int x, ListNode *next) : val(x), next(next) {}
-};
+#include "ListNode.hpp"
 
 ListNode* deleteDuplicates(ListNode* head);
 

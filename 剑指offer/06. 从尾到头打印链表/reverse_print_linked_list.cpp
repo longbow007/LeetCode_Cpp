@@ -8,14 +8,9 @@
 #include "reverse_print_linked_list.hpp"
 #include <vector>
 #include <stack>
+#include "ListNode.hpp"
 
 using namespace std;
-
-struct ListNode {
-    int val;
-    ListNode *next;
-    ListNode(int x) : val(x), next(NULL) {}
-};
 
 vector<int> reversePrint(ListNode* head) {
     // 数组

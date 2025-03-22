@@ -6,13 +6,7 @@
 //
 
 #include "linked_list_cycle.hpp"
-
-
-struct ListNode {
-    int val;
-    ListNode *next;
-    ListNode(int x) : val(x), next(NULL) {}
-};
+#include "ListNode.hpp"
 
 bool hasCycle(ListNode *head) {
     if (head == nullptr || head->next == nullptr) return false;

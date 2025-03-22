@@ -6,12 +6,7 @@
 //
 
 #include "reverse_list.hpp"
-
-struct ListNode {
-    int val;
-    ListNode *next;
-    ListNode(int x) : val(x), next(NULL) {}
-};
+#include "ListNode.hpp"
 
 class Solution {
 public:

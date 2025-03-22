@@ -6,17 +6,17 @@
 //
 
 #include "reverse_linked_list.hpp"
-
-struct ListNode {
-    int val;
-    ListNode *next;
-    ListNode() : val(0), next(nullptr) {}
-    ListNode(int x) : val(x), next(nullptr) {}
-    ListNode(int x, ListNode *next) : val(x), next(next) {}
-};
+#include "ListNode.hpp"
 
 ListNode* reverseList(ListNode* head) {
     if (head == nullptr || head->next == nullptr) return head;
+    // 递归法
+//    ListNode *p = reverseList(head->next);
+//    head->next->next = head;
+//    head->next = nullptr;
+//    return p;
+
+    // 指针法
     ListNode *p = head, *q = head->next;
     p->next = nullptr;
     while (q != nullptr) {

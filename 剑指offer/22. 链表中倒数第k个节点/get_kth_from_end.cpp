@@ -7,14 +7,9 @@
 
 #include "get_kth_from_end.hpp"
 #include <vector>
+#include "ListNode.hpp"
 
 using namespace std;
-
-struct ListNode {
-    int val;
-    ListNode *next;
-    ListNode(int x) : val(x), next(NULL) {}
-};
 
 class GetKthFromEndSolution {
 public:
